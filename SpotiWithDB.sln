@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotiAPI", "SpotiAPI\SpotiAPI.csproj", "{3A854667-FE0D-4C49-8F52-F130C3DAE3C0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6C248795-702A-4340-A52A-CA57DDDA4219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A854667-FE0D-4C49-8F52-F130C3DAE3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A854667-FE0D-4C49-8F52-F130C3DAE3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A854667-FE0D-4C49-8F52-F130C3DAE3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A854667-FE0D-4C49-8F52-F130C3DAE3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C248795-702A-4340-A52A-CA57DDDA4219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C248795-702A-4340-A52A-CA57DDDA4219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C248795-702A-4340-A52A-CA57DDDA4219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C248795-702A-4340-A52A-CA57DDDA4219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEB47DC4-F694-44EF-8C00-033D96BE04DB}
+	EndGlobalSection
+EndGlobal
