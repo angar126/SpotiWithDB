@@ -12,7 +12,7 @@ namespace SpotiAPI.Models
             Songs = new HashSet<Song>();
         }
 
-        public int Id { get; set; }
+        public int AlbumId { get; set; }
         public string Name { get; set; }
         public int? Rating { get; set; }
         public int? ArtistId { get; set; }

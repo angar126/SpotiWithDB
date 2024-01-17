@@ -50,12 +50,12 @@ namespace SpotiAPI.Controllers
         public IActionResult Create(Album album)
         {
             _albumRepository.AddAsync(album);
-            return CreatedAtAction(nameof(Get), new { id = album.Id }, album);
+            return CreatedAtAction(nameof(Get), new { id = album.AlbumId }, album);
         }
         [HttpPut("{id}")]
         public IActionResult Update(int id, Album album)
         {
-            if (id != album.Id)
+            if (id != album.AlbumId)
                 return BadRequest();
 
             var existingAlbum = _albumRepository.GetByIdAsync(id);
